@@ -1,0 +1,16 @@
+{
+    "env": {
+        "EMAIL":{
+            "description": "Provide your Addr",
+            "required": true
+        },
+        "PASSWORD":{
+            "description": "Provide your Password",
+            "required": true
+        },
+        "NAME":{
+            "description": "Provide your Name",
+            "required": true
+        }
+    }
+}
