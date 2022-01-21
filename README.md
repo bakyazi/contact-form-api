@@ -1,1 +1,38 @@
+It is a simple endpoint for contact forms on your website.
+
+It allows only rest `POST` method and accept following json
+
+``` json
+
+{
+    "from": "email@address.com",
+    "title": "title",
+    "message": "text"
+}
+
+```
+You can deploy this api on Google Cloud Run platform by clicking button below
+
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+
+
+You should configure following enviroment variables
+
+``` json
+{
+    "env": {
+        "EMAIL":{
+            "description": "Provide your Email Address",
+            "required": true
+        },
+        "PASSWORD":{
+            "description": "Provide your Password",
+            "required": true
+        },
+        "NAME":{
+            "description": "Provide your Name",
+            "required": true
+        }
+    }
+}
+```
