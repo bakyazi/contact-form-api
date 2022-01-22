@@ -34,7 +34,6 @@ func main() {
 			http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
 			return
 		}
-		// TODO
 		decoder := json.NewDecoder(req.Body)
 		var form ContactForm
 		err := decoder.Decode(&form)
