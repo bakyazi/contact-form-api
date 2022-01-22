@@ -59,5 +59,5 @@ Please note that you should enable `Less secure app access` option of your gmail
 Roadmap
 --
 
- - [] API Rate Limiter
- - [] More fancy e-mail format via HTML
+ - [ ] API Rate Limiter
+ - [ ] More fancy e-mail format via HTML
