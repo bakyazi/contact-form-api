@@ -36,3 +36,28 @@ You should configure following enviroment variables
     }
 }
 ```
+
+Enviroment variable `EMAIL` sends an e-mail which contains contact form payload to itself.
+
+I use it for my [personal website](https://imberkay.com) and its [repo](https://github.com/bakyazi/nextjs-resume)
+
+Here screenshot of contact form:
+
+![contact-form](/assets/img1.jpg)
+
+And screenshot of received e-mail:
+
+![email](/assets/img3.jpg)
+
+
+Please note that you should enable `Less secure app access` option of your gmail acount
+![settings](/assets/img2.jpg)
+
+
+
+
+Roadmap
+--
+
+ - [] API Rate Limiter
+ - [] More fancy e-mail format via HTML
