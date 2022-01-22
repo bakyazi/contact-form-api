@@ -61,3 +61,4 @@ Roadmap
 
  - [ ] API Rate Limiter
  - [ ] More fancy e-mail format via HTML
+ - [ ] Using Gmail API in Google Cloud in order to get rid of necessity of `Less secure app access` option
